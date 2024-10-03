@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars, no-console */
+
 import React from 'react';
 import Image from 'next/image'; // Import the Image component from next/image
 import trilla from '../../assets/traila.jpg';

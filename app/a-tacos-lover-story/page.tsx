@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars, no-console */
+
 import React from 'react'
 import Story from '@/components/story/story'
 import Gallery from '@/components/gallery/gallery'
