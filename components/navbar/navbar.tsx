@@ -11,8 +11,8 @@ const Navbar = () => {
   const handleCloseMenu = () => setIsOpen(false);
 
   return (
-    <div className="px-28 xl:px-14 lg:px-7 sm:!px-4 pb-8 pt-1">
-      <div className="bg-white rounded-full flex items-center justify-between py-5 px-6 md:py-2">
+    <div className="">
+      <div className="bg-white flex items-center justify-between py-5 px-4 md:py-2">
         <div className="flex items-center justify-center">
           <Link href="/">
             <Image

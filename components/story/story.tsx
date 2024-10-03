@@ -5,11 +5,11 @@ import image2 from '../../assets/Berryessa-Interior.png';
 
 const Story = () => {
   return (
-    <div className="px-28 xl:px-14 lg:px-7 sm:px-4 py-5 text-dark">
+    <div className="px-4 py-5 text-dark">
       <h1 className="text-center text-4xl font-bold">
         A <span className="text-reddish font-lobster">Taco-Lovers</span> Story
       </h1>
-      <div className="px-4 py-12 sm:p-0 sm:py-4">
+      <div className="py-12 sm:p-0 sm:py-4">
         <div className="grid md:grid-cols-1 gap-12 items-center mb-16">
           <div>
             <h2 className="text-2xl font-semibold italic mb-6 text-gray-700">

@@ -3,12 +3,12 @@ import React from 'react';
 const Location = () => {
   return (
     <div>
-      <h1 className="text-4xl text-center my-8 font-bold lg:px-7 sm:px-4 md:my-4 lg:text-3xl lg:my-4">
+      <h1 className="text-4xl text-center my-8 font-bold px-4 md:my-4 lg:text-3xl lg:my-4">
         <span className="font-lobster text-reddish">Araujo’s Mexican Grill</span>
         Locations
       </h1>
       <div className="flex items-center justify-center">
-        <div className="text-base text-light text-center px-28 xl:px-14 lg:px-7 sm:px-4 lg:w-auto">
+        <div className="text-base text-light text-center px-4 lg:w-auto">
           Welcome to Araujo’s Mexican Grill! We’re proud to serve you at three
           convenient locations in San Jose, California. Whether you’re craving
           authentic Mexican cuisine for breakfast, lunch, or a late-night
@@ -18,7 +18,7 @@ const Location = () => {
         </div>
       </div>
 
-      <div className="px-28 xl:px-14 lg:px-7 sm:px-4 my-12">
+      <div className="px-4 my-12">
         {/* Location 1 */}
         <div className="grid grid-cols-2 lg:gap-5 md:grid-cols-1 gap-8 bg-box_bg p-5 sm:p-3 rounded-lg">
           <div>

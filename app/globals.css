@@ -2,12 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding: 0%;
-    margin: 0;
+* {
+  padding: 0%;
+  margin: 0;
 }
 
 .hero_image {
-    /* background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Drestaurant%2Bbackground&psig=AOvVaw2vdh6BXDevu3P5OzyJ-o4q&ust=1727533556756000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiM1Jmq44gDFQAAAAAdAAAAABAJ")    } */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/hero.jpeg');
-  }
+  /* background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Drestaurant%2Bbackground&psig=AOvVaw2vdh6BXDevu3P5OzyJ-o4q&ust=1727533556756000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiM1Jmq44gDFQAAAAAdAAAAABAJ")    } */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/hero.jpeg");
+}
+
+/* Custom Scrollbar for Webkit Browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 3px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #4e4e4e25; /* Background of the track (scroll area) */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #31313133; /* Scrollbar color */
+  border-radius: 10px; /* Round corners for scrollbar */
+}
